@@ -39,7 +39,7 @@ to [`Datadog`].
 
  [`DatadogPipelineBuilder`]: struct.DatadogPipelineBuilder.html
 
- ```no_run
+ ```rust,no_run
  use opentelemetry::{KeyValue, trace::Tracer};
  use opentelemetry::sdk::{trace::{self, IdGenerator, Sampler}, Resource};
  use opentelemetry::sdk::export::trace::ExportResult;
